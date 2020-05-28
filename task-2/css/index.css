@@ -1,0 +1,175 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color: #f1f1f1;
+}
+.containerDiv
+{
+	padding: 20px 80px 20px 80px;		
+}
+
+.fa
+{
+  padding: 5px;
+  font-size: 25px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-facebook,.fa-twitter,.fa-google,.fa-linkedin,.fa-pinterest
+{
+  color:black;
+  border:1px solid black;
+}
+
+.head div a
+{
+	text-decoration: none;
+}
+
+.head div a:visited
+{
+	color:black;
+}
+
+.header{
+	margin-top: 20px;
+}
+.header1,.header2,.header3
+{
+	display: inline;
+}
+.header2
+{
+	margin-left: 60px;
+}
+.header3
+{
+	float: right;
+	line-height: 90px;
+}
+
+.head .header3 a:hover
+{
+	font-weight: bold;
+	color:red;
+}
+
+.menuBar a
+{
+	text-decoration: none;
+	font-family: sans-serif;
+	color:black;
+	font-size: 20px;
+	margin-right: 10px;
+}
+.menuBar a:hover
+{
+	color:brown;
+}
+.menuBar li
+{
+	list-style: none;
+	float: left;
+}
+
+.menuBar input[type="text"]
+{
+	float: right;
+	border:none;
+	outline: none;
+	border-bottom:1px solid darkgreen;
+	font-size: 18px;
+	padding: 2px;
+	font-family: 'Times New Roman', Times, serif;
+	background-color: #f1f1f1;
+}
+
+.menuBar input[type="text"]:focus
+{
+	width: 25%;
+	border-bottom:2px solid darkgreen;
+}
+
+.menuBar
+{
+	margin-top: 25px;
+	height: auto;
+}
+
+.search{
+	position: relative;
+	top:-5px;
+	left:35%;
+}
+
+.article{
+	display: flex;
+	flex-direction: column;
+	background-color:#ffffff;
+}
+.articleUpper{
+	flex:1;
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.uppersub1{
+	height:463px;
+	flex:2;
+	background-color: #f1f1f1;
+	background-image: url('../images/cycling.jpg');
+	background-size:auto 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.uppersub2{
+	flex:1;
+	margin-left:20px;
+	background-color: #f1f1f1;	
+	background-image: url('../images/rugby.jpg');
+	background-size:100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.uppersub3{
+	flex:1;
+	margin-left:20px;
+	background-color: #f1f1f1;
+	background-image: url('../images/dhoni.jpg');
+	background-size:100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.uppersub1 > span,.uppersub2 > span,.uppersub3 > span{
+	text-align: center;
+	width:98%;
+	height:100px;
+	/*background-color: white;*/
+	background-color: rgba(241,241,241,0.9);
+	position: absolute;
+	left:50%;
+	top:85%;
+	transform: translate(-50%,-50%);
+	padding: 5px 0px 5px 0px;
+	overflow-y: auto;
+
+}
+.lowersub1{
+	flex:4;
+	background-color: #f1f1f1;
+}
+.lowersub2{
+	flex:1;
+	background-color: #f1f1f1;
+}
+
+.article h3{
+	margin-bottom: 10px;	
+}
